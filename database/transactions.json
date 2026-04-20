@@ -1,0 +1,10 @@
+[
+  {
+    "trans_id": 1,
+    "book_id": 2,
+    "member_id": 1,
+    "issue_date": "20-04-2026",
+    "return_date": "20-04-2026",
+    "returned": 1
+  }
+]

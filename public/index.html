@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix | Advanced Library Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Login Screen -->
+    <div class="login-overlay active" id="loginScreen">
+        <div class="login-box glass-panel">
+            <div class="logo" style="margin-bottom: 24px; text-align: center;">
+                <h1 style="font-size: 36px;">Mat<span>rix</span></h1>
+            </div>
+            <h3 style="text-align: center; margin-bottom: 24px;">Admin Portal</h3>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label>Admin ID</label>
+                    <input type="text" id="loginUsername" required placeholder="Enter ID (admin)">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="loginPassword" required placeholder="Enter Password (admin123)">
+                </div>
+                <div id="loginError" style="color: #ef4444; font-size: 14px; margin-bottom: 16px; display: none;">Invalid credentials</div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Secure Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="app-container" id="appContainer" style="display: none;">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-panel">
+            <div class="logo">
+                <h1>Mat<span>rix</span></h1>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-item active" data-tab="dashboard">Dashboard</button>
+                <button class="nav-item" data-tab="books">Books</button>
+                <button class="nav-item" data-tab="members">Members</button>
+                <button class="nav-item" data-tab="transactions">Transactions</button>
+            </nav>
+            <div class="sidebar-footer">
+                <p>System Online</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="top-header glass-panel">
+                <div class="search-bar">
+                    <input type="text" id="globalSearch" placeholder="Search books, members...">
+                </div>
+                <div class="user-profile">
+                    <div class="avatar">A</div>
+                    <span>Admin</span>
+                    <button class="btn btn-secondary" onclick="logout()" style="padding: 6px 12px; margin-left: 12px; font-size: 12px;">Logout</button>
+                </div>
+            </header>
+
+            <!-- Views Container -->
+            <div class="view-container">
+                <!-- Dashboard View -->
+                <section id="dashboard" class="view active-view">
+                    <h2 class="view-title">Overview</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card glass-panel accent-blue">
+                            <h3>Total Books</h3>
+                            <p id="totalBooks">0</p>
+                        </div>
+                        <div class="stat-card glass-panel accent-purple">
+                            <h3>Active Members</h3>
+                            <p id="totalMembers">0</p>
+                        </div>
+                        <div class="stat-card glass-panel accent-pink">
+                            <h3>Active Transactions</h3>
+                            <p id="totalTxns">0</p>
+                        </div>
+                    </div>
+                    <div class="recent-section glass-panel mt-4">
+                        <h3>Recently Added Books</h3>
+                        <div class="recent-books-grid" id="recentBooksGrid">
+                            <!-- Populated by JS -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Books View -->
+                <section id="books" class="view">
+                    <div class="view-header">
+                        <h2 class="view-title">Book Directory</h2>
+                    </div>
+                    <div class="books-grid" id="booksGrid">
+                        <!-- Populated by JS -->
+                    </div>
+                </section>
+
+                <!-- Members View -->
+                <section id="members" class="view">
+                    <div class="view-header">
+                        <h2 class="view-title">Members</h2>
+                        <button class="btn btn-primary" onclick="openModal('addMemberModal')">+ Add Member</button>
+                    </div>
+                    <div class="table-container glass-panel">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Borrowed</th>
+                                </tr>
+                            </thead>
+                            <tbody id="membersTableBody">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Transactions View -->
+                <section id="transactions" class="view">
+                    <div class="view-header">
+                        <h2 class="view-title">Transactions</h2>
+                        <div class="action-buttons">
+                            <button class="btn btn-secondary" onclick="openModal('issueBookModal')">Issue Book</button>
+                            <button class="btn btn-primary" onclick="openModal('returnBookModal')">Return Book</button>
+                        </div>
+                    </div>
+                    <div class="table-container glass-panel">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>TID</th>
+                                    <th>Book ID</th>
+                                    <th>Member ID</th>
+                                    <th>Issue Date</th>
+                                    <th>Return Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="transactionsTableBody">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal-overlay" id="addMemberModal">
+        <div class="modal glass-panel">
+            <h3>Add New Member</h3>
+            <form id="addMemberForm">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" id="mName" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="mEmail" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" id="mPhone" required>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('addMemberModal')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Member</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="issueBookModal">
+        <div class="modal glass-panel">
+            <h3>Issue Book</h3>
+            <form id="issueBookForm">
+                <div class="form-group">
+                    <label>Select Book</label>
+                    <select id="iBookId" required>
+                        <option value="">-- Choose a book --</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Select Member</label>
+                    <select id="iMemberId" required>
+                        <option value="">-- Choose a member --</option>
+                    </select>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('issueBookModal')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Issue</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="returnBookModal">
+        <div class="modal glass-panel">
+            <h3>Return Book</h3>
+            <form id="returnBookForm">
+                <div class="form-group">
+                    <label>Select Transaction</label>
+                    <select id="rTransId" required>
+                        <option value="">-- Choose a pending transaction --</option>
+                    </select>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('returnBookModal')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Return</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

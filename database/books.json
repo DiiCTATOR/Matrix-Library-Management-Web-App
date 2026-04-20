@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "title": "Heidi",
+    "author": "Spyri, Johanna",
+    "genre": "Fiction",
+    "year": 1885,
+    "total_copies": 2,
+    "available_copies": 2,
+    "coverUrl": "https://covers.openlibrary.org/b/id/2668686-M.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Babbitt",
+    "author": "Sinclair Lewis",
+    "genre": "Fiction",
+    "year": 1922,
+    "total_copies": 2,
+    "available_copies": 2,
+    "coverUrl": "https://covers.openlibrary.org/b/id/6376827-M.jpg"
+  },
+  {
+    "id": 3,
+    "title": "White Fang",
+    "author": "Jack London",
+    "genre": "Fiction",
+    "year": 1905,
+    "total_copies": 2,
+    "available_copies": 2,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8236920-M.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Pollyanna",
+    "author": "Eleanor Hodgman Porter",
+    "genre": "Fiction",
+    "year": 1912,
+    "total_copies": 5,
+    "available_copies": 5,
+    "coverUrl": "https://covers.openlibrary.org/b/id/902113-M.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Ivanhoe",
+    "author": "Sir Walter Scott",
+    "genre": "Fiction",
+    "year": 1800,
+    "total_copies": 5,
+    "available_copies": 5,
+    "coverUrl": "https://covers.openlibrary.org/b/id/314235-M.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Waves",
+    "author": "Virginia Woolf",
+    "genre": "Fiction",
+    "year": 1931,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/119517-M.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Villette, a novel",
+    "author": "Charlotte Brontë",
+    "genre": "Fiction",
+    "year": 1853,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/5737854-M.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "genre": "Fiction",
+    "year": 1911,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/12622062-M.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Scarlet Pimpernel",
+    "author": "Emma Orczy",
+    "genre": "Fiction",
+    "year": 1900,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/479102-M.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Ethan Frome",
+    "author": "Edith Wharton",
+    "genre": "Fiction",
+    "year": 1910,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8303480-M.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "genre": "Fiction",
+    "year": 1880,
+    "total_copies": 5,
+    "available_copies": 5,
+    "coverUrl": "https://covers.openlibrary.org/b/id/13859660-M.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Hard Times",
+    "author": "Charles Dickens",
+    "genre": "Fiction",
+    "year": 1854,
+    "total_copies": 2,
+    "available_copies": 2,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8236916-M.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Kim",
+    "author": "Rudyard Kipling",
+    "genre": "Fiction",
+    "year": 1901,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/1053011-M.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "genre": "Fiction",
+    "year": 1800,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/252882-M.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "genre": "Fiction",
+    "year": 1897,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/12216503-M.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "genre": "Fiction",
+    "year": 1914,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8216412-M.jpg"
+  },
+  {
+    "id": 17,
+    "title": "The Enchanted Castle",
+    "author": "Edith Nesbit",
+    "genre": "Fiction",
+    "year": 1907,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/6644514-M.jpg"
+  },
+  {
+    "id": 18,
+    "title": "The Jungle",
+    "author": "Upton Sinclair",
+    "genre": "Fiction",
+    "year": 1707,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8231790-M.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Orlando",
+    "author": "Virginia Woolf",
+    "genre": "Fiction",
+    "year": 1928,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/3240273-M.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Persuasion",
+    "author": "Jane Austen",
+    "genre": "Fiction",
+    "year": 1789,
+    "total_copies": 2,
+    "available_copies": 2,
+    "coverUrl": "https://covers.openlibrary.org/b/id/12824691-M.jpg"
+  },
+  {
+    "id": 21,
+    "title": "The Time Machine",
+    "author": "H. G. Wells",
+    "genre": "Fiction",
+    "year": 1895,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/9009316-M.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "genre": "Fiction",
+    "year": 1800,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/417329-M.jpg"
+  },
+  {
+    "id": 23,
+    "title": "The blue castle",
+    "author": "Lucy Maud Montgomery",
+    "genre": "Fiction",
+    "year": 1926,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/14640067-M.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Herland",
+    "author": "Charlotte Perkins Gilman",
+    "genre": "Fiction",
+    "year": 1915,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/448130-M.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Fiction",
+    "year": 1847,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8235363-M.jpg"
+  },
+  {
+    "id": 26,
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "genre": "Fiction",
+    "year": 1927,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8231846-M.jpg"
+  },
+  {
+    "id": 27,
+    "title": "The Sea Fairies",
+    "author": "L. Frank Baum",
+    "genre": "Fiction",
+    "year": 1911,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/1814237-M.jpg"
+  },
+  {
+    "id": 28,
+    "title": "The Awakening",
+    "author": "Kate Chopin",
+    "genre": "Fiction",
+    "year": 1899,
+    "total_copies": 2,
+    "available_copies": 2,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8750241-M.jpg"
+  },
+  {
+    "id": 29,
+    "title": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "genre": "Fiction",
+    "year": 1800,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/5654516-M.jpg"
+  },
+  {
+    "id": 30,
+    "title": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "genre": "Fiction",
+    "year": 1903,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/2293974-M.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "genre": "Fiction",
+    "year": 1848,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8775559-M.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Shirley",
+    "author": "Charlotte Brontë",
+    "genre": "Fiction",
+    "year": 1800,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/11024634-M.jpg"
+  },
+  {
+    "id": 33,
+    "title": "The Railway Children",
+    "author": "Edith Nesbit",
+    "genre": "Fiction",
+    "year": 1900,
+    "total_copies": 2,
+    "available_copies": 2,
+    "coverUrl": "https://covers.openlibrary.org/b/id/13241123-M.jpg"
+  },
+  {
+    "id": 34,
+    "title": "The Sea-Wolf",
+    "author": "Jack London",
+    "genre": "Fiction",
+    "year": 1900,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8236975-M.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "genre": "Fiction",
+    "year": 1861,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/13322313-M.jpg"
+  },
+  {
+    "id": 36,
+    "title": "The Wind in the Willows",
+    "author": "Kenneth Grahame",
+    "genre": "Fiction",
+    "year": 1908,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/13335427-M.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Peter Pan",
+    "author": "J. M. Barrie",
+    "genre": "Fiction",
+    "year": 1911,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8237052-M.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "genre": "Fiction",
+    "year": 1862,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/12721865-M.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Lord Jim",
+    "author": "Joseph Conrad",
+    "genre": "Fiction",
+    "year": 1900,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8236295-M.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Emma",
+    "author": "Jane Austen",
+    "genre": "Fiction",
+    "year": 1815,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/9278312-M.jpg"
+  },
+  {
+    "id": 41,
+    "title": "The Portrait of a Lady",
+    "author": "Henry James",
+    "genre": "Fiction",
+    "year": 1881,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/3352367-M.jpg"
+  },
+  {
+    "id": 42,
+    "title": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "genre": "Fiction",
+    "year": 1905,
+    "total_copies": 5,
+    "available_copies": 5,
+    "coverUrl": "https://covers.openlibrary.org/b/id/2328315-M.jpg"
+  },
+  {
+    "id": 43,
+    "title": "Five Children and It",
+    "author": "Edith Nesbit",
+    "genre": "Fiction",
+    "year": 1905,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/28174-M.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Frankenstein or The Modern Prometheus",
+    "author": "Mary Shelley",
+    "genre": "Fiction",
+    "year": 1818,
+    "total_copies": 4,
+    "available_copies": 4,
+    "coverUrl": "https://covers.openlibrary.org/b/id/12356249-M.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Мы",
+    "author": "Евгений Иванович Замятин",
+    "genre": "Fiction",
+    "year": 1924,
+    "total_copies": 6,
+    "available_copies": 6,
+    "coverUrl": "https://covers.openlibrary.org/b/id/5484189-M.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Just So Stories",
+    "author": "Rudyard Kipling",
+    "genre": "Fiction",
+    "year": 1922,
+    "total_copies": 5,
+    "available_copies": 5,
+    "coverUrl": "https://covers.openlibrary.org/b/id/36215-M.jpg"
+  },
+  {
+    "id": 47,
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "genre": "Fiction",
+    "year": 1817,
+    "total_copies": 5,
+    "available_copies": 5,
+    "coverUrl": "https://covers.openlibrary.org/b/id/12043351-M.jpg"
+  },
+  {
+    "id": 48,
+    "title": "This Side of Paradise",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Fiction",
+    "year": 1920,
+    "total_copies": 3,
+    "available_copies": 3,
+    "coverUrl": "https://covers.openlibrary.org/b/id/8243609-M.jpg"
+  }
+]

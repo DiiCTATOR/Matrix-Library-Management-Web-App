@@ -1,0 +1,5 @@
+node_modules/
+*.exe
+*.dat
+.env
+.DS_Store
