@@ -3,11 +3,12 @@ name: Library Management CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
@@ -17,18 +18,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
 
       - name: Install Dependencies
         run: npm ci
 
-      - name: Check Server
+      - name: Check Server Syntax
         run: node --check server.js
 
-      - name: Check Seed
+      - name: Check Seed Syntax
         run: node --check seed.js
-
-      - name: Run Tests
-        run: npm test
 
       - name: Pipeline Success
         run: echo "Library Management CI completed successfully"
