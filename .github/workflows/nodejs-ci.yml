@@ -4,7 +4,7 @@ name: Library Management CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
