@@ -1,0 +1,31 @@
+
+name: Library Management CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Check Server
+        run: node --check server.js
+
+      - name: Check Seed
+        run: node --check seed.js
+
+      - name: Run Tests
+        run: npm test --if-present
