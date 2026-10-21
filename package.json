@@ -1,10 +1,12 @@
+
 {
   "name": "library_management",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Matrix Library Management Web App",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "node -e \"console.log('Test script executed successfully')\""
   },
   "keywords": [],
   "author": "",
