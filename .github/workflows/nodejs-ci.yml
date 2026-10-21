@@ -28,7 +28,7 @@ jobs:
         run: node --check seed.js
 
       - name: Run Tests
-        run: npm test --if-present
+        run: npm test
 
       - name: Pipeline Success
         run: echo "Library Management CI completed successfully"
