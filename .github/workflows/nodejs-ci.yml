@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout Code
@@ -30,4 +30,4 @@ jobs:
         run: node --check seed.js
 
       - name: Pipeline Success
-        run: echo "Library Management CI completed successfully"
+        run: echo "Library Management CI completed successfully on AWS EC2"
