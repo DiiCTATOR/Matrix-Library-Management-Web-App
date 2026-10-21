@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout Code
@@ -29,3 +29,6 @@ jobs:
 
       - name: Run Tests
         run: npm test --if-present
+
+      - name: Pipeline Success
+        run: echo "Library Management CI completed successfully"
