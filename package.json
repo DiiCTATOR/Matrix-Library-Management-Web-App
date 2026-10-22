@@ -5,9 +5,10 @@
   "description": "Matrix Library Management Web App",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "node -e \"console.log('Test script executed successfully')\""
-  },
+  "start": "node server.js",
+  "test": "node -e \"console.log('Test script executed successfully')\"",
+  "validate:json": "node validate-json.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
