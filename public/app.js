@@ -56,7 +56,7 @@ function setupLoginForm() {
             } else {
                 errDiv.style.display = 'block';
             }
-        } catch (err) {
+        } catch {
             errDiv.textContent = 'Server error.';
             errDiv.style.display = 'block';
         }
@@ -279,3 +279,5 @@ function setupForms() {
         }
     });
 }
+window.logout = logout;
+window.openModal = openModal;
