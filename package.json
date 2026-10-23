@@ -1,14 +1,14 @@
-
 {
   "name": "library_management",
   "version": "1.0.0",
   "description": "Matrix Library Management Web App",
   "main": "server.js",
   "scripts": {
-  "start": "node server.js",
-  "test": "node -e \"console.log('Test script executed successfully')\"",
-  "validate:json": "node validate-json.js"
-},
+    "start": "node server.js",
+    "test": "node -e \"console.log('Test script executed successfully')\"",
+    "validate:json": "node validate-json.js",
+    "lint": "eslint ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,5 +16,9 @@
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0"
   }
 }
